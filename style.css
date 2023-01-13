@@ -245,6 +245,7 @@ p span {
     
     nav {
         flex-direction: column;
+        padding-left: 20px;
     }
 
     main {
@@ -273,4 +274,24 @@ p span {
 
  @media screen and (min-width:663px) and (max-width:992px) {
     
+    nav {
+        flex-direction: column;
+        padding-left: 50px;
+    }
+
+    main {
+        padding: 0 60px 41px;
+    }
+
+    .container-players {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .container-blogs {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .container-course {
+        grid-template-columns: repeat(1,1fr);
+    }
  }
